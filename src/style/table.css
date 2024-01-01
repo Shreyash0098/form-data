@@ -1,0 +1,79 @@
+.delete-record-btn {
+  background-color: #f52b2b;
+  color: rgb(255, 251, 251);
+  border-radius: 10rem;
+  border: none;
+  cursor: pointer;
+  width: 42%;
+  padding: 5px;
+  margin: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.delete-record-btn:hover {
+  background-color: #f84c4c;
+}
+
+.edit-record-btn {
+  background-color: #0d71fd;
+  color: rgb(247, 246, 246);
+  border-radius: 10rem;
+  border: none;
+  cursor: pointer;
+  width: 42%;
+  padding: 5px;
+  margin: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.edit-record-btn:hover {
+  background-color: #2982ff;
+}
+
+.delete-records-btn:hover {
+  transform: scale(1.1);
+}
+
+.add-records-btn:hover {
+  transform: scale(1.1);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table-list {
+  height: 10vh;
+  width: 45vw;
+  background-color: lightcyan;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  margin: 15px 150px 40px 5px;
+  font-size: larger;
+}
+
+.table-list td,
+.table-list th {
+  border: 2px solid #ffffff;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+i {
+  margin: 3px;
+}
+
+.no-records-msg {
+  width: 100%;
+  color: #646363;
+  font-weight: 600;
+  margin-left: 130%;
+}

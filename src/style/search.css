@@ -1,0 +1,13 @@
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 16px;
+  background-color: #f3f3f3;
+}
